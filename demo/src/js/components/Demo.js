@@ -4,9 +4,7 @@ import ReactJson from "./../../../../src/js/index"
 import GitHubButton from "react-github-button"
 
 import Code from "./../helpers/Code"
-import "./../../style/scss/rjv-demo.scss"
-import "react-select/dist/react-select.css"
-import "react-github-button/assets/style.css"
+
 
 //index entrypoint component
 export default class extends React.PureComponent {
@@ -473,7 +471,7 @@ export default class extends React.PureComponent {
                 "second-child": false,
                 "last-child": null
             },
-            string_number: "1234",
+            string_number: "123465666",
             date: new Date()
         }
     }
